@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative File.join("..", "lib", "cli.rb")
+Fylorg::Cli.new(ARGV).run!
