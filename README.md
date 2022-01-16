@@ -14,6 +14,10 @@ $ gem install fylorg
   fylorg --types=pdf --out=organized-files --dictionary=./dictionary.json
 ```
 
+ `--types=`: `file types to organize`  
+ `--out=`: `target-directory`  
+ `--dictionary`: `organization rules`  
+
 ### Dictionary
 
 The dictionary is a json configuration file used to categorize files based on keywords.
