@@ -1,4 +1,5 @@
 {
-  "accounts": [ "accounts", "finance", "money", "credit", "debit" ],
-  "hiring":   [ "candidates", "interviews", "hiring" ]
+  "accounts":     [ "accounts", "finance", "money", "credit", "debit" ],
+  "hiring":       [ "candidates", "interviews", "hiring" ],
+  "programming":  [ "ruby", "rust", "python", "lua", "clojure", "programming" ]
 }

@@ -35,11 +35,8 @@ module Fylorg
     end
 
     def keywords_match?(file_words, category_words)
-      Float(
-        Levenshtein.normalized_distance(
-          file_words, category_words, MATCH_THRESHOLD
-        )
-      ) > MATCH_FILT_LEVEL
+      (Levenshtein.normalized_distance(file_words, category_words, MATCH_THRESHOLD) || 0.0) >
+      MATCH_FILT_LEVEL
     end
   end
 end

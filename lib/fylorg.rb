@@ -9,7 +9,7 @@ module Fylorg
     attr_accessor :opts
 
     def initialize(raw_opts)
-      @opts = raw_opts.slice(*%w[dictionary out root types])
+      @opts = raw_opts.slice(*%w[dictionary out root types]).transform_keys(&:to_sym)
     end
 
     def organize!
@@ -21,10 +21,3 @@ module Fylorg
     end
   end
 end
-
-__END__
-
-  def move_books(category)
-end
-
-pp BookOrganizer.new.move_books(:microservice)
