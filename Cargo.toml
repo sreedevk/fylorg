@@ -3,6 +3,16 @@ name = "fylorg"
 version = "0.0.1"
 edition = "2021"
 authors = ["Sreedev Kodichath <sreedev@icloud.com>"]
+license = "MIT"
+description = "Fylorg - Automatic File Organizer"
+readme = "README.md"
+repository = "https://github.com/sreedevk/fylorg"
+homepage = "https://github.com/sreedevk/fylorg"
+categories = ["command-line-utilities"]
+keywords = [
+  "automatic-file-organizer",
+  "fylorg",
+]
 
 [[bin]]
 name = "fylorg"
