@@ -1,0 +1,10 @@
+[
+  {
+    "keywords": ["accounting", "accounts", "finance", "Balance Sheet"],
+    "category": "Accounts and Finance"
+  },
+  {
+    "keywords": ["coding", "rust", "go", "ruby", "python", "lua"],
+    "category": "Software Development"
+  }
+]
