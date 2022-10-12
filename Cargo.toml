@@ -10,7 +10,7 @@ repository = "https://github.com/sreedevk/fylorg"
 homepage = "https://github.com/sreedevk/fylorg"
 categories = ["command-line-utilities"]
 keywords = [
-  "automatic-file-organizer",
+  "file-organizer",
   "fylorg",
 ]
 
